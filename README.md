@@ -28,20 +28,6 @@ The agent follows the **Reason + Act** paradigm:
 
 ---
 
-### LangGraph Workflow
-
-┌─────────────────────────────────────────────────┐
-│                                                 │
-│  START → Agent (LLM) → Decision Point           │
-│              ↓              ↓                   │
-│         Tool Calls?      No Tool Calls          │
-│              ↓              ↓                   │
-│           Tools          END (Response)         │
-│              ↓                                  │
-│         Agent (Loop back with results)          │
-│                                                 │
-└─────────────────────────────────────────────────┘
-
 ## Available Tools
 
 | Tool Name               | Description                                                |
